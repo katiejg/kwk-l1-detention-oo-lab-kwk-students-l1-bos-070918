@@ -11,3 +11,7 @@ def add_student(student)
   self.students.push(student)
 end
 end
+
+hi = Detention.new 
+add_student("Rebecca")
+puts hi.students
