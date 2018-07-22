@@ -4,8 +4,8 @@ attr_accessor :location, :time, :grumpy_teacher, :activity, :students
 def initialize(activity = "collective punishment")
   @activity=activity
 end
-def students
-  students = [ ]
+def 
+  
 end
 def add_student(student)
   students
