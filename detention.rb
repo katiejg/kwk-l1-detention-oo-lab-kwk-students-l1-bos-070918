@@ -4,9 +4,6 @@ attr_accessor :location, :time, :grumpy_teacher, :activity, :students
 def initialize(activity = "collective punishment")
   @activity=activity
 end
-def 
-  
-end
 def add_student(student)
   students
   self.students << student.to_s
