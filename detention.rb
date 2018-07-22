@@ -9,7 +9,7 @@ def students
   [ ]
 end
 def add_student(student)
-  self.students.push(student)
+  @students.push(student)
   return self.students
 end
 end
