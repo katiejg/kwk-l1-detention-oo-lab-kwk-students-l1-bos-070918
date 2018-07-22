@@ -8,7 +8,7 @@ def students
   [ ]
 end
 def add_student(student)
-  self.students << student
+  self.students.push(student)
   return self.students
 end
 end
