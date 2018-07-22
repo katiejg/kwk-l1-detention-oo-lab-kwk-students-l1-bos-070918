@@ -5,7 +5,7 @@ def initialize(activity = "collective punishment")
   @activity=activity
 end
 def start 
-  students= []
+  students= [ ]
 end
 def add_student(student)
   self.students << student.to_s
