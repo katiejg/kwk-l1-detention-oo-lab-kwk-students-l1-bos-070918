@@ -12,3 +12,5 @@ def add_student(student)
   return self.students
 end
 end
+
+hi = Detention.new 
