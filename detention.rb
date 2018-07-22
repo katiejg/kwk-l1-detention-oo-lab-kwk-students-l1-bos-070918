@@ -8,8 +8,8 @@ end
 def students 
   [ ]
 end
-def add_student(student)
-  @students << student
+def add_student(pupil)
+  @students << pupil
 end
 end
 
