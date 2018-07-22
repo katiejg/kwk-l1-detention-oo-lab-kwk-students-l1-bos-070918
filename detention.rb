@@ -10,7 +10,6 @@ def students
 end
 def add_student(student)
   @students.push(student)
-  return self.students
 end
 end
 
