@@ -12,5 +12,5 @@ def add_student(student)
   students.push(student)
 end
 def remove_student(student)
-  
+  students.delete(student)
 end
