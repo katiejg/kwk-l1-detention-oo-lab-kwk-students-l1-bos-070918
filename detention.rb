@@ -3,9 +3,11 @@ class Detention
 attr_accessor :location, :time, :grumpy_teacher, :activity, :students
 def initialize(activity = "collective punishment")
   @activity=activity
+  @students
 end
 def students 
-  [ ]
+  students = [ ]
+  @students = students
 end
 def add_student(student)
   self.students.push(student)
