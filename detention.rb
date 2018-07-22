@@ -11,6 +11,10 @@ def add_student(student)
   self.students << student
   return self.students
 end
+
+hi = Detention.new 
+add_student("Rebecca")
+puts hi.students
 end
 
 hi = Detention.new 
