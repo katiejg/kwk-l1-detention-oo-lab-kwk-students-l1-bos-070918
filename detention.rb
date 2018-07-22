@@ -12,7 +12,3 @@ def add_student(pupil)
   @students << pupil
 end
 end
-
-hi = Detention.new 
-hi.add_student("Rebecca")
-puts hi.students
