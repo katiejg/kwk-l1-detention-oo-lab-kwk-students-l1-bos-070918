@@ -15,4 +15,4 @@ end
 
 hi = Detention.new 
 hi.add_student("Rebecca")
-return hi.students
+hi.students
