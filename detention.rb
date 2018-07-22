@@ -6,10 +6,10 @@ def initialize(activity = "collective punishment")
 end
 def students
   students = [ ]
-end
 def add_student(student)
   students
   self.students << student.to_s
   return self.students
+end
 end
 end
