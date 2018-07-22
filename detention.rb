@@ -14,3 +14,4 @@ end
 def remove_student(student)
   students.delete(student)
 end
+end
