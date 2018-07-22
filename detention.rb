@@ -5,9 +5,6 @@ def initialize(activity = "collective punishment")
   @activity=activity
   @students=students
 end
-def students 
-  [ ]
-end
 def add_student(pupil)
   @students << pupil
 end
