@@ -15,4 +15,4 @@ end
 
 hi = Detention.new 
 hi.add_student("Rebecca")
-hi.students
+puts hi.students
